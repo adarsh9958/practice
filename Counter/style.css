@@ -1,0 +1,49 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-family: "Martel Sans", sans-serif;
+    font-family: "Nova Square", sans-serif;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 231, 255);
+  }
+  
+  header{
+      position: relative;
+      /* left: 43%; */
+      top: 20%;
+      margin-top: 10%;
+      /* margin-bottom: 5%; */
+  }
+  header #head{
+      display: flex;
+      justify-content: center;
+      font-size: 44px;
+  }
+  
+  #value{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      font-size: 100px;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .btn{
+      margin: 23px 45px;
+      padding: 5px 25px;
+      border: 2px solid black;
+      border-radius: 7px;
+      font-size: large;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 1s;
+  }
+  
+  .btn:hover{
+      border: 3px solid blue;
+  }
